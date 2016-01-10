@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AngularJS: Getting Started With NgModelController: Creating a Phone Number Input Component"
+title:  "AngularJS: Getting Started With NgModelController - Creating a Phone Number Input Component"
 date:   2016-01-10 19:00:00 -0200
 categories: angularjs
 ---
@@ -99,7 +99,7 @@ app.directive('phoneNumberInput', function() {
   return {
     restrict: 'E',
     templateUrl: 'phone-number-input.html',
-    require: 'ngModel', // <- Requires ngModel
+    require: 'ngModel', // <- Requires the NgModelController from the ngModel directive
 //...
 {% endhighlight %}
 
