@@ -3,6 +3,7 @@ layout: post
 title:  "AngularJS: Getting Started With NgModelController - Creating a Phone Number Input Component"
 date:   2016-01-10 19:00:00 -0200
 categories: angularjs
+permalink: "/angularjs-getting-started-with-ngmodelcontroller"
 ---
 There seems to be a lot of confusion in understanding how to setup custom input elements using NgModelController. I know I struggled a bit, so here's my attempt to help.
 

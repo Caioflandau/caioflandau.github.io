@@ -19,4 +19,3 @@ github_username:  caioflandau
 
 # Build settings
 markdown: kramdown
-permalink: "/:slug"
