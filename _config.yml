@@ -44,10 +44,12 @@ logo-image: # /img/logo.png
 face-image: /img/caio.jpg
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+
+# theme-color-attr: "#00f0ff"
+theme-color-attr: "#14EB00"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#00f0ff"
+ms-tile-color: "#14EB00"
 
 # Color used throughout the theme. Format: R, G, B.
 # theme-color: 220, 255, 20 # Original: 0, 240, 255
