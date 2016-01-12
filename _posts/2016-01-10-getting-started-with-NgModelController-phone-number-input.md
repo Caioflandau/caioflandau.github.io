@@ -16,9 +16,7 @@ When data changes _inside_ our component (usually due to user interaction with i
 That's where `NgModelController.$setViewValue()` comes into play. We'll see how in a sec. For now, let's see how data moves the other way around.
 
 ### 2. Data _to_ our component from the exposed model: `$render()`
-What about when data is changed from outside of our component's scope? Say something changed the value of the model. We'll want to reflect those changes on our component.
-You know, when an `<input>` text gets updated when you change their ng-model value?
-For that, Angular will notify our component by calling `NgModelController.$render()`. We'll write that function ourselves!
+What about when data is changed from outside of our component's scope? Say something changed the value of the model. We'll want to reflect those changes on our component. You know, when an `<input>` text gets updated when you change their ng-model value? For that, Angular will notify our component by calling `NgModelController.$render()`. We'll write that function ourselves!
 
 Let's see how all that is done. It's simpler than it sounds:
 
@@ -103,6 +101,7 @@ app.directive('phoneNumberInput', function() {
     require: 'ngModel', // <- Requires the NgModelController from the ngModel directive
 //...
 {% endhighlight %}
+Basically what that `require` does is tell Angular: "My component exposes an ng-model. Pass me the controller for it.". Angular then passes the NgModelController as the 4th argument on the link function.
 
 Remember the two ways data can move? Let's implement the first one:
 
@@ -188,8 +187,7 @@ The full code for the phone number component, along with an usage example, can b
 
 This is just the bare minimum implementation. There are many things you can/should do to make the implementation bulletproof.
 
-For example, we should never assume the object in `$viewValue` when `$render` is called is in the format you expect it to be.
-The data there comes from something not under the component's control, so without a `$parsers` pipeline in place, it could be in _any_ crazy format. Always do sanity-checks.
+For example, we should never assume the object in `$viewValue` when `$render` is called is in the format you expect it to be. The data there comes from something not under the component's control, so without a `$parsers` pipeline in place, it could be in _any_ crazy format. Always do sanity-checks.
 
 You might find it useful to setup a few other things, which are outside of this post's scope:
 
