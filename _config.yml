@@ -86,6 +86,8 @@ display-next-prev-post: false
 # Leave empty if you don't want comments on post pages.
 disqus-shortname: caiolandau
 
+tag-manager-id: "GTM-K3RJXL"
+
 
 ################
 # SOCIAL ICONS #
