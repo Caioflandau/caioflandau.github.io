@@ -5,10 +5,10 @@ name: Caio Landau
 description:
 
   # Description of your site. This will show up in google.
-  meta: "Caio Landau: Software Engineer at Mozio. Mobile (Android & iOS) development articles. AngularJS and all kinds of front-end tech posts!"
+  meta: "Caio Landau: Head of Mobile Development at Mozio. Mobile (Android & iOS) development articles. AngularJS and all kinds of front-end tech posts!"
 
   # Description of your site. This will show up on the front page.
-  subtitle: "Software Engineer at <a href=\"https://www.mozio.com/\">Mozio</a>. Brazilian travel addict who loves technology. I'm planning my next trip. Constantly."
+  subtitle: "Head of Mobile Development at <a href=\"https://www.mozio.com/\">Mozio</a>. Brazilian travel addict who loves technology. I'm planning my next trip. Constantly."
 
 author:
   name: Caio Landau

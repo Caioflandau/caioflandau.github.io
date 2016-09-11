@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Software Engineer at Mozio, an awesome ground transportation startup you should [check before your next trip](http://www.mozio.com/). Developer with a passion for process improvement. Although I've been working mainly with web front-end lately, I'm also an experienced mobile (Android & iOS) developer.
+Head of Mobile Development at Mozio, an awesome ground transportation startup you should [check before your next trip](http://www.mozio.com/). Developer with a passion for process improvement. Lately, I've been working mainly with mobile development. But have spent quite some time working with web front-end, mainly in Angular and React.
 
 Having worked on many exciting projects in the past, from augmented reality to innovative mobile payment platforms, I love what I do. Sounds cliché, I know. But I'm probably one of the few who actually mean it!
 
