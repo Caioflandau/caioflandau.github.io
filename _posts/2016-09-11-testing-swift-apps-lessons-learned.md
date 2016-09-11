@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "iOS/Swift: Testing Swift Apps - Lessons Learned
+title:  "iOS/Swift: Testing Swift Apps - Lessons Learned"
 date:   2016-09-11 22:00:00 +0100
 categories: Swift,iOS
 permalink: "/testing-swift-apps-lessons-learned"
