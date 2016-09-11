@@ -13,6 +13,7 @@ Seriously, testing logic that depends on other units of your project will be eas
 
 Here's an example situation:
 you have a class that does a complex calculation using a `Calculator` object. So you define your class like that:
+
 ```swift
 class SomeClass {
   let calculator: Calculator = Calculator()
@@ -22,6 +23,7 @@ class SomeClass {
   }
 }
 ```
+
 ### Question: how do you test `SomeClass.calculateSomething(..)` separately from `Calculator`?
 Answer: With this implementation, you can't! Well that's not entirely true, but the methods used to make this possible are not pretty at all. Read on for a much better solution.
 
@@ -43,6 +45,7 @@ class SomeClass {
   }
 }
 ```
+
 The benefits here are huge: when you're testing `SomeClass`, you can pass in a mocked `Calculator` object to the initializer, made just for testing purposes. That means when you're testing the `calculateSomething(..)` method, you have full control over what that `self.calculator.doMath(..)` call will return, and you don't have to worry about the internals of `Calculator`. After all, you're testing `SomeClass`, not `Calculator`, right?
 
 ## Lesson two: Handling big initializers
@@ -50,6 +53,7 @@ Here's the scenario: the class you are testing has a lot of dependencies. You've
 
 ### Solution: Using a configuration object
 Super simple: instead of receiving all of your dependencies directly in the constructor, you can receive a configuration object. Structs have implicit initializers, so if you don't need any specific case (like handling optionals), it's very clean. Here's an example:
+
 ```swift
 struct ClassWithLotsOfDependenciesConfig {
   let someDep: SomeDependency
