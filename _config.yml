@@ -23,6 +23,9 @@ author:
 url: http://caiolandau.com
 baseurl: ""
 
+# excerpt separator config
+excerpt_separator: "<!--more-->"
+
 # language attribute in <html> element.
 lang: en
 
