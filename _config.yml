@@ -143,8 +143,12 @@ var_your_message: Your message
 
 exclude: [vendor]
 highlighter: rouge
+markdown: kramdown
+
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
+
 paginate_path: "/page-:num/"
 permalink: pretty
 defaults:
