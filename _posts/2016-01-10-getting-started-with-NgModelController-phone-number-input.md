@@ -6,7 +6,7 @@ categories: angularjs
 permalink: "/angularjs-getting-started-with-ngmodelcontroller"
 ---
 There seems to be a lot of confusion in understanding how to setup custom input elements using NgModelController. I know I struggled a bit, so here's my attempt to help.
-
+<!--more-->
 
 ## The concept in two simple steps
 When creating a component that will use NgModelController for two-way data binding, we need to remember exactly that: it's **two-ways**.

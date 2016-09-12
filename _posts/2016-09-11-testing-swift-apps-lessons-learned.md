@@ -6,7 +6,7 @@ categories: Swift,iOS
 permalink: "/testing-swift-apps-lessons-learned"
 ---
 At Mozio, we're always trying to deliver the highest quality software we can. A big part of achieving that is having a solid testing framework. In this post, I'm going to share a few lessons learned along the way in that area, specifically for Swift projects.
-
+<!--more-->
 
 ## Lesson one: Dependency inject all the things!
 Seriously, testing logic that depends on other units of your project will be easy if you follow that.
