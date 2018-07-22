@@ -117,6 +117,7 @@ paypal:
 
 var_on_the_web: On the web
 var_read: Read # Text after each post summary on the homepage.
+var_latest_post: "Latest post:"
 var_newer: Newer
 var_older: Older
 var_next_post: Next post

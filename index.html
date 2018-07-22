@@ -16,6 +16,9 @@ home: true
 
   <article>
     <span class="meta">
+      {% if paginator.per_page == 1 %}
+      {{ site.var_latest_post }}
+      {% endif %}
       {% if site.display-author-front-page %}
         {% if post.author.name %}
           {{ post.author.name }} •
