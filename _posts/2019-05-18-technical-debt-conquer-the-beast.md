@@ -6,7 +6,7 @@ categories: Engineering,Culture,Lead
 permalink: "/technical-debt-conquer-the-beast"
 ---
 "The project is messy". "Implementing this feature will require a massive change". "Can't do X without breaking Y". Strange bugs appear in features no one has touched in a while. Team members start talking about rewriting the entire thing. Familiar? That's too much tech debt. Your team probably needs to get refactoring — and it may be easier than you think...
-
+<!--more-->
 
 # So what is technical debt anyway?
 I won't try to define it here. Martin Fowler [put it](https://martinfowler.com/bliki/TechnicalDebt.html) better than I could:
