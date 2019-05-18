@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Technical debt: conquering the beast"
-date:   2019-05-18 18:00:00 +0700
+date:   2019-05-18 23:00:00 +0700
 categories: Engineering,Culture,Lead
 permalink: "/technical-debt-conquer-the-beast"
 ---
