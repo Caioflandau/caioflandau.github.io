@@ -8,6 +8,9 @@ permalink: "/installing-android-support-library-flutter-project"
 In this small post, we'll look at how to install the Android Support Library on a Flutter project.
 <!--more-->
 
+# Update: use AndroidX instead if possible!
+The Android Support library is deprecated and has been replaced with AndroidX. I wrote a similar guide on [how to use AndroidX on your Flutter project](/using-androidx-flutter-project).
+
 # Why?
 If you've worked with Android projects in the past, you may be used to having the Support Library for various backwards-compatible goodies. It comes for free when creating a regular Android project with Android Studio.
 
@@ -26,8 +29,8 @@ For this part, we'll be using Android Studio as our tool of choice. While this c
 ## Open the correct project
 The main "trick" here is opening the correct project in Android Studio:
 1. On Android Studio, click `File > Open...` and navigate to your Flutter project's root. **Don't open it just yet!**
-1. In your project's root folder, you will see a folder called `android`. That's the one we're looking for - open it
-1. You will notice this is just a regular Android project. If you never opened it before, you may see an error message:
+2. In your project's root folder, you will see a folder called `android`. That's the one we're looking for - open it
+3. You will notice this is just a regular Android project. If you never opened it before, you may see an error message:
 `Flutter SDK not found. Define location with flutter.sdk in the local.properties file.`
 To fix it, as the message says, simply open your `local.properties` file in that same project and add:
 ```
