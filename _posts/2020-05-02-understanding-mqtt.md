@@ -42,7 +42,7 @@ Why not just use HTTP for everything, right? Have you ever had to poll a REST AP
 MQTT to the rescue! It has [significantly less overhead](http://www.steves-internet-guide.com/mqtt-protocol-messages-overview/) when connecting, even over TLS (encrypted connection). Plus the data package is much smaller - meaning less bandwidth is used and transmission is faster overall.
 
 In addition, MQTT is heavily optimized towards slow/unreliable connections. Quoting [MQTT.org](https://mqtt.org/faq):
-> [MQTT is] designed for constrained devices and low-bandwidth, high-latency or unreliable networks. The design principles are to minimize network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery
+> [MQTT is] designed for constrained devices and low-bandwidth, high-latency or unreliable networks. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery
 
 ## Example MQTT use cases (in the mobile development world)
 MQTT can be very useful in many cases. The options are limitless, but some examples are:
