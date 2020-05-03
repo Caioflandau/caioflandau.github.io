@@ -60,5 +60,5 @@ Great, let's ditch HTTP and use MQTT for everything! Everyone wants fast connect
 # That all sounds great! Where do I learn more about MQTT?
 Now that you know how MQTT works at a high level, there are many great resources where you can learn more in-depth, including some examples. I recommend the following two series of articles:
 
-- This guide by Steve Cope is a great resource to learn more in-depth about MQTT: http://www.steves-internet-guide.com/mqtt-basics-course/
-- HiveMQ has a great series explaining (almost) everything called MQTT Essentials: https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt/
+- This guide by Steve Cope is a great resource to learn more in-depth about MQTT: [http://www.steves-internet-guide.com/mqtt-basics-course/](http://www.steves-internet-guide.com/mqtt-basics-course/)
+- HiveMQ has a great series explaining (almost) everything called MQTT Essentials: [https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt/](https://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt/)
